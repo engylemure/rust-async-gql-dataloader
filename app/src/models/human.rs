@@ -1,6 +1,6 @@
 use super::Episode;
 
-#[derive(Clone)]
+#[derive(Clone, Debug, sqlx::FromRow)]
 pub struct Human {
     pub id: String,
     pub name: String,

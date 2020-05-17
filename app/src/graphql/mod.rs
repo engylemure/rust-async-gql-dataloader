@@ -1,3 +1,4 @@
+pub mod context;
 pub mod mutation;
 pub mod objects;
 pub mod query;
